@@ -1,1 +1,4 @@
-# theodinprojects
+# PERSONAL PROJECT UNDER THE ODIN PROJECT REPOSITORY
+
+## Truth and Dare Game
+
