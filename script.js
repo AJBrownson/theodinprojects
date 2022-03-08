@@ -54,3 +54,29 @@ const dare = [
     'Call a random person and pretend that you have called your partner.',
     'Act your favorite sex move.'
 ]
+
+
+const para = document.querySelector('#para');
+const btn1 = document.querySelector('#truth');
+const btn2 = document.querySelector('#dare');
+
+
+
+btn1.addEventListener('click', getTruth);
+btn2.addEventListener('click', getDare);
+
+
+
+
+function getTruth() {
+    const randTruth = Math.floor(Math.random() * truth.length )
+    para.textContent = (randTruth, truth[randTruth])
+}
+
+
+
+
+function getDare() {
+    const randDare = Math.floor(Math.random() * dare.length )
+    para.textContent = (randDare, dare[randDare])
+}

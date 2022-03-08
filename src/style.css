@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(197, 51%, 73%);
+}
+
+
+
+#title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title > h1 {
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 19px;
+}
+
+
+#card {
+    border: 2px solid yellowgreen;
+    padding: 5rem 8rem;
+    background: rgba(255, 255, 255, 0#486);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#btns > #truth {
+    padding: 1rem;
+    margin-right: 0.5rem;
+    background: #0000ff3f;
+    border: 1px solid #0000ff3f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#btns > #dare {
+    padding: 1rem;
+    margin-left: 0.5rem;
+    background: #ff00003f;
+    border: 1px solid #ff00003f;
+    border-radius: 5px;
+    cursor: pointer;
+}
