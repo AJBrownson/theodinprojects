@@ -2,3 +2,8 @@
 
 ## Truth and Dare Game
 
+## TECH STACK 
+-- HTML
+-- VANILLA CSS
+-- TAILWINDCSS
+-- VANILLA JS

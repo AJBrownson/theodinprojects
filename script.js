@@ -75,7 +75,6 @@ function getTruth() {
 
 
 
-
 function getDare() {
     const randDare = Math.floor(Math.random() * dare.length )
     para.textContent = (randDare, dare[randDare])
