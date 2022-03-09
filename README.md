@@ -1,6 +1,4 @@
-# PERSONAL PROJECT UNDER THE ODIN PROJECT REPOSITORY
-
-## Truth and Dare Game
+# Truth and Dare Questions Game
 
 ## TECH STACK 
 + HTML
@@ -9,5 +7,7 @@
 + Vanilla JS
 
 
-## DEVELOPMENT WORKFLOW
-+ Mobile-first development
+## DEVELOPMENT WORKFLOW AND STAGES
++ Mobile-first development using Vanilla CSS
++ Webpage development also with Vanilla CSS
++ Implementing the utilities in TailwindCSS
