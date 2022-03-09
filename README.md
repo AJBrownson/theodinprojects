@@ -3,7 +3,11 @@
 ## Truth and Dare Game
 
 ## TECH STACK 
- HTML,
- VANILLA CSS,
- TAILWINDCSS,
- VANILLA JS,
++ HTML
++ Vanilla CSS
++ TailwindCSS
++ Vanilla JS
+
+
+## DEVELOPMENT WORKFLOW
++ Mobile-first development
