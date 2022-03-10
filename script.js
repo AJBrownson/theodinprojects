@@ -27,7 +27,8 @@ const truth = [
     'Is there anything that you are afraid to tell me?',
     'Which one of my personality traits do you like the most in me?',
     'Is there any wild fantasy that you have?',
-    'When was the first time that you were attracted to someone?'
+    'When was the first time that you were attracted to someone?',
+    'Which body part do you like the most in a girl/boy?'
 
 ]
 
