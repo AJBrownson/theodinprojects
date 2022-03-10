@@ -30,13 +30,16 @@ const truth = [
     'When was the first time that you were attracted to someone?',
     'Which body part do you like the most in a girl/boy?',
     'What do you think is the hottest thing that anyone has ever done for you?',
-    'At what age did you first taste alcohol?'
+    'At what age did you first taste alcohol?',
+    'Have you ever had any dark thoughts about me?',
+    'Have you ever had a crush on someone’s parents?',
+    'When was the last time you sent nudes to someone?'
 
 ]
 
 
 const dare = [
-    'Kiss someone from the same gender.',
+    'Kiss someone from the opposite gender.',
     'Send the link to your favorite porn site to your partner.',
     'Call your partner and try to seduce him/ her.',
     'Tell us your darkest sexual desire.',
@@ -67,7 +70,8 @@ const dare = [
     'Do whatever I ask you to do for ten minutes.',
     'Do a lap dance for me.',
     'Tell us about your recent sexual encounter in detail.',
-    'Show me the least sexy part of your body.'
+    'Show me the least sexy part of your body.',
+    
 ]
 
 
