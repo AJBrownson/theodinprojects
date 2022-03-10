@@ -1,9 +1,35 @@
+:root {
+    --bg-image: url('/src/Assets/sensual-smoke.jpg');
+
+    --truth-btn: 0, 0, 255;     /* blue color */
+
+    --dare-btn: 255, 0, 0;      /* red color */
+
+    --text-color: 255, 255, 255;    /* white color */
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgba(255, 0, 0, 0.37);
     font-family: cursive;
+    overflow: hidden;
+    background: rgb(56, 26, 31);
+}
+
+
+
+body::before {
+    content: '';
+    background-image: var(--bg-image);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: blur(30px);
+    z-index: -1;
 }
 
 #title {
@@ -17,6 +43,9 @@ body {
 #title > h1 {
     font-weight: 900;
     font-size: 40px;
+    background: linear-gradient(to right, #ffbb00, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -26,12 +55,12 @@ body {
     border-bottom: 3px dashed #0000ff3f;
     height: 40%;
     width: 90%;
-    background: rgba(230, 175, 175, 0);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 
 #para {
@@ -41,6 +70,8 @@ body {
     margin-top: 100px;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    text-shadow: 0 0 80px rgba(219, 221, 224, 0.75), 0 0 32px rgba(215, 220, 235, 0.24);
 }
 
 
@@ -52,6 +83,7 @@ body {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: rgb(var(--text-color));
 }
 
 
@@ -65,6 +97,13 @@ body {
 }
 
 
+#truth:hover {
+    box-shadow: rgba(var(--truth-btn), 0.5) 0px 0px 20px 0px;
+    transition: all 0.3s ease-in-out;
+}
+  
+
+
 #btns > #dare {
     padding: 2rem;
     margin-left: 10rem;
@@ -72,8 +111,13 @@ body {
     border: 1px solid #ff00003f;
     border-radius: 50px;
     cursor: pointer;
-}
+} 
 
+
+#dare:hover {
+    box-shadow: rgba(var(--dare-btn), 0.5) 0px 0px 20px 0px;
+    transition: all 0.3s ease-in-out
+}
 
 
 
@@ -113,10 +157,8 @@ body {
 
 
 
-
-
-
-
-
-
-
+@media screen and (max-width: 360px) {
+    #title > h1 {
+        font-size: 25px;
+    }
+}
