@@ -23,7 +23,12 @@ const truth = [
     'Have you ever talked dirty with someone of the same gender?',
     'Have you ever paid to watch porn?',
     'How frequently do you watch porn?',
-    'Have you ever caught someone nude by mistake?'
+    'Have you ever caught someone nude by mistake?',
+    'Is there anything that you are afraid to tell me?',
+    'Which one of my personality traits do you like the most in me?',
+    'Is there any wild fantasy that you have?',
+    'When was the first time that you were attracted to someone?'
+
 ]
 
 
@@ -52,7 +57,12 @@ const dare = [
     'Ask your crush to go on a date with you.',
     'Describe your last intercourse in detail.',
     'Call a random person and pretend that you have called your partner.',
-    'Act your favorite sex move.'
+    'Act your favorite sex move.',
+    'Turn off the light and try to turn me on.',
+    'Look into my eyes and tell me how you truly feel about me.',
+    'Tell me a secret fantasy of yours that you want to experience in real life.',
+    'Do whatever I ask you to do for ten minutes.',
+    'Do a lap dance for me. '
 ]
 
 
