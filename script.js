@@ -28,7 +28,9 @@ const truth = [
     'Which one of my personality traits do you like the most in me?',
     'Is there any wild fantasy that you have?',
     'When was the first time that you were attracted to someone?',
-    'Which body part do you like the most in a girl/boy?'
+    'Which body part do you like the most in a girl/boy?',
+    'What do you think is the hottest thing that anyone has ever done for you?',
+    'At what age did you first taste alcohol?'
 
 ]
 
@@ -63,8 +65,9 @@ const dare = [
     'Look into my eyes and tell me how you truly feel about me.',
     'Tell me a secret fantasy of yours that you want to experience in real life.',
     'Do whatever I ask you to do for ten minutes.',
-    'Do a lap dance for me. ',
-    'Tell us about your recent sexual encounter in detail.'
+    'Do a lap dance for me.',
+    'Tell us about your recent sexual encounter in detail.',
+    'Show me the least sexy part of your body.'
 ]
 
 
