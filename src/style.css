@@ -2,10 +2,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: hsl(197, 51%, 73%);
+    background: rgba(255, 0, 0, 0.37);
+    font-family: cursive;
 }
-
-
 
 #title {
     position: absolute;
@@ -14,21 +13,34 @@ body {
     transform: translate(-50%, -50%);
 }
 
+
 #title > h1 {
     font-weight: 900;
-    font-family: cursive;
-    font-size: 19px;
+    font-size: 40px;
 }
 
 
+
 #card {
-    border: 2px solid yellowgreen;
-    padding: 5rem 8rem;
-    background: rgba(255, 255, 255, 0#486);
+    border-top: 3px dashed #ff00003f;
+    border-bottom: 3px dashed #0000ff3f;
+    height: 40%;
+    width: 90%;
+    background: rgba(230, 175, 175, 0);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+#para {
+    font-size: xx-large;
+    font-weight: 400;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -44,20 +56,67 @@ body {
 
 
 #btns > #truth {
-    padding: 1rem;
-    margin-right: 0.5rem;
+    padding: 2rem;
+    margin-right: 10rem;
     background: #0000ff3f;
     border: 1px solid #0000ff3f;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
 }
 
 
 #btns > #dare {
-    padding: 1rem;
-    margin-left: 0.5rem;
+    padding: 2rem;
+    margin-left: 10rem;
     background: #ff00003f;
     border: 1px solid #ff00003f;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
 }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #title > h1 {
+        font-size: 26px;
+    }
+
+    
+    #card {
+        height: 30%;
+        width: 90%;
+    }
+
+
+
+    #para {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    #btns > #truth {
+        padding: 1rem;
+        margin-right: 0.5rem;
+        border-radius: 50%;
+    }
+
+
+    #btns > #dare {
+        padding: 1rem;
+        margin-left: 0.5rem;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
