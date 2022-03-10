@@ -63,7 +63,8 @@ const dare = [
     'Look into my eyes and tell me how you truly feel about me.',
     'Tell me a secret fantasy of yours that you want to experience in real life.',
     'Do whatever I ask you to do for ten minutes.',
-    'Do a lap dance for me. '
+    'Do a lap dance for me. ',
+    'Tell us about your recent sexual encounter in detail.'
 ]
 
 
